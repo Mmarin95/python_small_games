@@ -15,9 +15,9 @@ for t in range(1, 7):
 
     if guess > randomNumber:
         print("Your guess is too high")
-    elif guess < randomNumber:
+    if guess < randomNumber:
         print("Your guess is too low")
-    elif guess == randomNumber:
+    if guess == randomNumber:
         triesToWin = t
         break
 
